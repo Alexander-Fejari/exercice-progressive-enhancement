@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+body {
+    max-width: 95%;
+    margin: auto;
+    background-color: #f0f1ff;
+    background-image: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom, right;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+blockquote {
+    margin-left: 35%;
+    margin-right: 20%;
+    font-size: 160%;
+    background: #d1d1d1;
+    padding: 10px;
+    border-left: 3px firebrick;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    background: lightgray;
+    border-radius: 0.25rem;
+}
+h2 {
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: transparent;
+}
+tr:nth-child(odd) {
+    background-color: #d3d3d3;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    padding-right: 10%;
+    line-height: 60px;
+}
+
+.img {
+    display: block;
+    width: 450px;
+    height: 300px;
+    margin-right: 20px;
+    float: left;
+}
+.img1 {
+    width: 450px;
+    height: 300px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.img2 {
+    float: center;
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: 630px;
+}
+
+.txt {
+    padding-top: 40px;
+    margin: 1rem;
+}
+
+.old {
+    padding-top: 250px;
+}
+
+.bad {
+    color: red;
+}
+.good {
+    color: green;
+}
